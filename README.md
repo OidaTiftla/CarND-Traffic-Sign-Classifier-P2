@@ -59,6 +59,12 @@ Because of the satisfying performance of the neural network no further preproces
 
 Afterwards all samples get shuffled.
 
+After pre-processing:
+
+* The size of training set is ```173995```
+* The size of the validation set is ```4410```
+* The size of test set is ```12630```
+
 #### 2. Model Architecture
 
 The final model architecture is based on the LeNet-5.
