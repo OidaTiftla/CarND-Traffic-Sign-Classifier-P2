@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 
 ## Rubric Points
 
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation
+### Here the [rubric points](https://review.udacity.com/#!/rubrics/481/view) are considered individually and described how each point is addressed in the implementation
 
 ---
 
