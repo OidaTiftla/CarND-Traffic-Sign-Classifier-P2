@@ -50,7 +50,7 @@ Here is an exploratory visualization of the data set. It is a pie chart showing 
 
 First the number of training samples is increased using augmentation.
 Each sample has five representations in the resulting training set, with five different rotation angles: ```[-10, -5, 0, 5, 10]``` degree.
-A greater test set improved the neural network in the first epoch from about ```83%``` to about ```93%``` accuracy.
+A greater test set improved the neural network in the first epoch from about ```73%``` to about ```93%``` accuracy.
 
 Next the pixel values are normalized, so the neural network has input values from ```-1.0``` to ```+1.0```.
 The normalization formula is: ```x_new = (x_old - 128.0) / 128.0```.
