@@ -125,7 +125,7 @@ In the end the model needed only ```4``` epochs to reach a satisfying accuracy o
 
 The final model results were:
 
-<!--* training set accuracy of ```not calculated```-->
+* training set accuracy of ```99.7%```
 * validation set accuracy of ```95.1%```
 * test set accuracy of ```94.8%```
 
