@@ -6,9 +6,10 @@
 
 In this project, a convolutional neural network is used to classify traffic signs. It is trained and validated so it can classify traffic sign images using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the model was trained, the model was tried out on images of German traffic signs that were found on the web.
 
-**Build a Traffic Sign Recognition Project**
+### Build a Traffic Sign Recognition Project
 
 The goals / steps of this project are the following:
+
 * Load the data set (see below for links to the project data set)
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
@@ -29,7 +30,8 @@ The goals / steps of this project are the following:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
-### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
+
+### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation
 
 ---
 
@@ -37,7 +39,7 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 
 ### Dataset Summary & Exploration
 
-#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+#### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually
 
 I used the pandas library to calculate summary statistics of the traffic
 signs data set:
@@ -48,7 +50,7 @@ signs data set:
 * The shape of a traffic sign image is ```(32, 32, 3)```
 * The number of unique classes/labels in the data set is ```43```
 
-#### 2. Include an exploratory visualization of the dataset.
+#### 2. Include an exploratory visualization of the dataset
 
 Here is an exploratory visualization of the data set. It is a pie chart showing how the proportion between the samples of the different classes is.
 
@@ -98,6 +100,7 @@ The final model consisted of the following layers:
 | Softmax         |                                              |
 
 #### 3. Train, Validate and Test the Model
+
 To train the model, a cross entropy was calculated on the softmax layer.
 The cross entropy's mean is passed to the optimizer as the loss operation.
 To optimize the model the ```AdamOptimizer``` is used.
@@ -127,6 +130,7 @@ So the batch size was kept at ```128```.
 In the end the model needed only ```4``` epochs to reach a satisfying accuracy of about ```95%``` for the validation set as well as for the test set.
 
 The final model results were:
+
 <!--* training set accuracy of ```not calculated```-->
 * validation set accuracy of ```95.1%```
 * test set accuracy of ```94.8%```
@@ -142,7 +146,7 @@ Therefore some images without signs should be included into the dataset.
 
 ### Test a Model on New Images
 
-#### 1. Here are five German traffic signs that I found on the web:
+#### 1. Here are five German traffic signs that I found on the web
 
 ![1 - Speed limit (30km/h)](extra_signs_data/1.png)
 ![10 - No passing for vehicles over 3.5 metric tons](extra_signs_data/10.png)
@@ -265,10 +269,12 @@ It should be a ```Roundabout mandatory```, but the softmax probabilities are:
 | 0.024       | Road work                                |
 
 It shows, that a further improvement of the dataset is needed:
-- include images with resized signs, and move the location of the signs inside the image
-- include images with only partly visible signs, and combine it with all the other augmentations
 
-## To meet specifications, the project will require submitting three files:
+* include images with resized signs, and move the location of the signs inside the image
+* include images with only partly visible signs, and combine it with all the other augmentations
+
+## To meet specifications, the project will require submitting three files
+
 * [x] the Ipython notebook with the code
 * [x] the code exported as an html file
 * [ ] a writeup report either as a markdown or pdf file
@@ -280,6 +286,7 @@ A great writeup should include the [rubric points](https://review.udacity.com/#!
 All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :).
 
 ## Dependencies
+
 This lab requires:
 
 * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
@@ -290,8 +297,8 @@ The lab environment can be created with CarND Term1 Starter Kit. Click [here](ht
 
 1. [Download the data set](https://s3-us-west-1.amazonaws.com/udacity-selfdrivingcar/traffic-signs-data.zip). This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
 2. Clone the project, which contains the Ipython notebook.
-```sh
-git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
-cd CarND-Traffic-Sign-Classifier-Project
-jupyter notebook Traffic_Sign_Classifier.ipynb
-```
+    ```sh
+    git clone https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project
+    cd CarND-Traffic-Sign-Classifier-Project
+    jupyter notebook Traffic_Sign_Classifier.ipynb
+    ```
