@@ -271,18 +271,6 @@ It shows, that a further improvement of the dataset is needed:
 * include images with resized signs, and move the location of the signs inside the image
 * include images with only partly visible signs, and combine it with all the other augmentations
 
-## To meet specifications, the project will require submitting three files
-
-* [x] the Ipython notebook with the code
-* [x] the code exported as an html file
-* [ ] a writeup report either as a markdown or pdf file
-
-## Creating a Great Writeup
-
-A great writeup should include the [rubric points](https://review.udacity.com/#!/rubrics/481/view) as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.
-
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :).
-
 ## Dependencies
 
 This lab requires:
