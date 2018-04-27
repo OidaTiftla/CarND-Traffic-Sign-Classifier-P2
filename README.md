@@ -227,6 +227,7 @@ Now the neural network was not able to predict the signs at all.
 Look at the top 5 softmax probabilities:
 
 It should be a ```Priority road```, ```Traffic signals``` and ```Roundabout mandatory```, but the softmax probabilities are:
+
 | Probability | Prediction            |
 | :---------: | :-------------------: |
 | 0.857       | Speed limit (30km/h)  |
@@ -236,6 +237,7 @@ It should be a ```Priority road```, ```Traffic signals``` and ```Roundabout mand
 | 0.001       | Double curve          |
 
 It should be a ```Priority road```, but the softmax probabilities are:
+
 | Probability | Prediction           |
 | :---------: | :------------------: |
 | 0.383       | Yield                |
@@ -245,6 +247,7 @@ It should be a ```Priority road```, but the softmax probabilities are:
 | 0.053       | Stop                 |
 
 It should be a ```Traffic signals```, but the softmax probabilities are:
+
 | Probability | Prediction            |
 | :---------: | :-------------------: |
 | 0.907       | Speed limit (20km/h)  |
@@ -254,6 +257,7 @@ It should be a ```Traffic signals```, but the softmax probabilities are:
 | 0.000       | Speed limit (50km/h)  |
 
 It should be a ```Roundabout mandatory```, but the softmax probabilities are:
+
 | Probability | Prediction                               |
 | :---------: | :--------------------------------------: |
 | 0.583       | Vehicles over 3.5 metric tons prohibited |
