@@ -72,26 +72,26 @@ The depth of the layers is increased compared to the LeNet-5, because the dropou
 
 The final model consisted of the following layers:
 
-| Layer           | Description                                  |
-| :-------------: | :------------------------------------------: |
-| Input           | 32x32x3 RGB image                            |
-| Convolution 5x5 | 1x1 stride, valid padding, outputs 28x28x16) |
-| RELU            |                                              |
-| Max pooling 2x2 | 2x2 stride, outputs 14x14x16                 |
-| Dropout         | keep_prop = 0.7 while training               |
-| Convolution 5x5 | 1x1 stride, valid padding, outputs 10x10x46) |
-| RELU            |                                              |
-| Max pooling 2x2 | 2x2 stride, outputs 5x5x46                   |
-| Dropout         | keep_prop = 0.7 while training               |
-| Flatten         | outputs 1150                                 |
-| Fully connected | outputs 820                                  |
-| RELU            |                                              |
-| Dropout         | keep_prop = 0.7 while training               |
-| Fully connected | outputs 564                                  |
-| RELU            |                                              |
-| Dropout         | keep_prop = 0.7 while training               |
-| Fully connected | outputs 43                                   |
-| Softmax         |                                              |
+| Layer           | Description                                 |
+| :-------------: | :-----------------------------------------: |
+| Input           | 32x32x3 RGB image                           |
+| Convolution 5x5 | 1x1 stride, valid padding, outputs 28x28x16 |
+| RELU            |                                             |
+| Max pooling 2x2 | 2x2 stride, outputs 14x14x16                |
+| Dropout         | keep_prop = 0.7 while training              |
+| Convolution 5x5 | 1x1 stride, valid padding, outputs 10x10x46 |
+| RELU            |                                             |
+| Max pooling 2x2 | 2x2 stride, outputs 5x5x46                  |
+| Dropout         | keep_prop = 0.7 while training              |
+| Flatten         | outputs 1150                                |
+| Fully connected | outputs 820                                 |
+| RELU            |                                             |
+| Dropout         | keep_prop = 0.7 while training              |
+| Fully connected | outputs 564                                 |
+| RELU            |                                             |
+| Dropout         | keep_prop = 0.7 while training              |
+| Fully connected | outputs 43                                  |
+| Softmax         |                                             |
 
 #### 3. Train, Validate and Test the Model
 
